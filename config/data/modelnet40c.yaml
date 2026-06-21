@@ -1,0 +1,19 @@
+# @package _global_
+
+model_name: 'clustview'
+dataset: 'ModelNet40FewShot'
+dataset_dir: '../../Dataset/'
+log_dir: 'runs/'
+cfg_path: 'wandb/'
+pretrained_path: 'None'
+wandb_name: 'binset_wo_maxpool/'
+seed: 9344
+batch_size: 32
+test_batch_size: 16
+epochs: 300
+warm_up_epoch: 30
+num_classes: 40
+drop_path_rate: 0.15
+
+corruption: 'uniform'
+severity: 1

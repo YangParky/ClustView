@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+/data/
+/checkpoints/
+/save/
+/pointnet2_ops_lib/build/
+/pointnet2_ops_lib/pointnet2_ops.egg-info/
+/PointRenderer/
+/prepare_data/
+/test.py
+/main_partseg.py
+/main_semseg.py
+/visual.ipynb
+/config/PartSeg.yaml
+/config/SemSeg.yaml
+/requirements.txt
+/models/other_models/

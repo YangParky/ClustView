@@ -1,0 +1,16 @@
+# @package _global_
+
+model_name: 'clustview'
+dataset: 'ModelNet40'   
+dataset_dir: '../../Dataset/'
+log_dir: 'runs/'
+cfg_path: 'wandb/'
+pretrained_path: 'None'
+wandb_name: 'seed42'
+seed: 42
+batch_size: 32
+test_batch_size: 16
+epochs: 300
+warm_up_epoch: 30
+num_classes: 40
+drop_path_rate: 0.05

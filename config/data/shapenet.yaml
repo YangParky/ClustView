@@ -1,0 +1,16 @@
+# @package _global_
+
+model_name: 'clustview'
+dataset: 'Shapenet'
+dataset_dir: '../../Dataset/'
+log_dir: 'runs/'
+cfg_path: 'wandb/'
+pretrained_path: 'None'
+wandb_name: 'binset_wo_maxpool'
+seed: 9344
+batch_size: 24
+test_batch_size: 6
+epochs: 200
+warm_up_epoch: 10
+class_choice: None
+drop_path_rate: 0.10

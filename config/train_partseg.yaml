@@ -1,0 +1,40 @@
+defaults:
+  - _self_
+  - data: shapenet
+
+task: 'part semantic'
+eval: False
+flops_profiler: True
+
+use_sgd: True
+lr: 1e-3
+momentum: 0.9
+dropout: 0.5
+scheduler: 'cos'
+warm_up: True
+
+train_gpu: [0]
+num_points: 2048
+down_ratio: [1, 2, 4, 8]
+patch_size: 16
+embed_dim: [3, 64, 128, 256, 256]
+local_size: 16
+num_heads: 4
+mlp_ratio: 2
+depth: [1, 1, 1, 1]
+proj_dim: [24, 48, 96, 192]
+
+visu: 'all'
+visu_format: 'ply'
+
+wandb:
+  use_wandb: True
+  project: ${model_name}-${dataset}   
+  name: ${wandb_name}
+
+hydra:
+  run:
+    dir: output/${dataset}/${model_name}/${wandb_name}
+
+  sweep:
+    dir: output/${dataset}/${model_name}/${wandb_name}

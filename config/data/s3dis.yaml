@@ -1,0 +1,16 @@
+# @package _global_
+
+model_name: 'clustview'
+dataset: 'S3DIS'
+dataset_dir: '../../Dataset/'
+log_dir: 'runs/'
+cfg_path: 'wandb/'
+pretrained_path: 'None'
+wandb_name: 'binset_wo_maxpool'
+seed: 9344
+batch_size: 15
+test_batch_size: 8
+epochs: 100
+warm_up_epoch: 10
+num_classes: 13
+drop_path_rate: 0.10

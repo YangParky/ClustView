@@ -1,0 +1,10 @@
+# ninja log v5
+4	14103	1705049382278760365	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/sampling.o	959cfeb6464d5577
+3	14199	1705049382378761024	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/interpolate.o	eececeb1b6fc971e
+1	17880	1705049386058785270	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/ball_query.o	2c7260879f9090fc
+2	17940	1705049386114785638	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/group_points.o	a700ab41334841a8
+1	20346	1705049388522801473	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/bindings.o	a20a5ffec4076de6
+1	39414	1705049407586926025	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/ball_query_gpu.o	d9e7c0fc03981ad1
+3	39572	1705049407734926987	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/interpolate_gpu.o	d17973fdc3779f03
+2	40279	1705049408442931584	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/group_points_gpu.o	fb580b4780792d70
+4	40360	1705049408522932103	/mnt/sda/xxy/Project/ClustView/pointnet2_ops/build/temp.linux-x86_64-cpython-37/pointnet2_ops/_ext-src/src/sampling_gpu.o	4403bc35145bb09a

@@ -1,0 +1,43 @@
+defaults:
+  - _self_
+  - data: s3dis
+
+task: 'segmentation'
+eval: False
+flops_profiler: True
+
+use_sgd: True
+lr: 1e-3
+momentum: 0.9
+dropout: 0.5
+scheduler: 'cos'
+warm_up: True
+
+train_gpu: [0]
+test_area: '5'
+
+num_points: 4096
+down_ratio: [1, 2, 4, 8]
+patch_size: 16
+embed_dim: [3, 24, 48, 96, 192]
+local_size: 16
+num_heads: 4
+mlp_ratio: 2
+depth: [1, 1, 1, 1]
+proj_dim: [24, 48, 96, 192]
+
+visu: 'all'
+visu_format: 'ply'
+
+# We support wandb for online results collection, please check their documentation for details: https://docs.wandb.ai/
+wandb:
+  use_wandb: True
+  project: ${model_name}-${dataset}   
+  name: ${wandb_name}
+
+hydra:
+  run:
+    dir: output/${dataset}/${model_name}/${wandb_name}
+
+  sweep:
+    dir: output/${dataset}/${model_name}/${wandb_name}
