@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-<!--
- * @Date: 2023-10-18 20:23:35
- * @Author: Xiao Xioayang
- * @LastEditors: Xiao Xioayang
- * @LastEditTime: 2026-06-21 13:58:24
--->
-
 # ClustView
 This repository contains the official code release of [**ClustView: Point Clustering and Depth View Fusion for Point Cloud Analysis**](https://www.sciencedirect.com/science/article/pii/S0957417426022116?dgcid=author) (ESWA 2026).
 
@@ -112,7 +104,3 @@ Our code is mainly based on the following open-source projects. Many thanks to t
 
 ## License
 This repository is released under MIT License.
-=======
-# ClustView
-ClustView
->>>>>>> 211c2fe21f664684f68e84abd97db67f3f4c57c6
