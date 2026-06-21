@@ -99,7 +99,7 @@ Our code is mainly based on the following open-source projects. Many thanks to t
 [CurveNet](https://github.com/tiangexiang/CurveNet), 
 [PointMLP](https://github.com/ma-xu/pointMLP-pytorch), 
 [PAConv](https://github.com/CVMI-Lab/PAConv), 
-[PointNeXt](https://github.com/guochengqian/pointnext)
+[PointNeXt](https://github.com/guochengqian/pointnext),
 [PointCont](https://github.com/yahuiliu99/PointConT).
 
 ## License
